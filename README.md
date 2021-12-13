@@ -51,41 +51,41 @@ To train the models, we first need to put every file into the right directory to
 	
 	7. Now we have the "dataset" directory properly set up, next, we need to move some more flies.
   
-  8. Create a directory "HW" in ./configs, and move HW.py into "HW"
+  	8. Create a directory "HW" in ./configs, and move HW.py into "HW"
   
-  9. Move coco_instance.py to  ./configs/_base_/datasets
+  	9. Move coco_instance.py to  ./configs/_base_/datasets
 
-  10. Move mask_rcnn_r50_fpn.py to ./configs/_base_/models
+  	10. Move mask_rcnn_r50_fpn.py to ./configs/_base_/models
 
-  11. Move schedule_1x.py to ./configs/_base_/schedules
+  	11. Move schedule_1x.py to ./configs/_base_/schedules
 
-  12. Move mask_rcnn_r50_caffe_fpn_mstrain-poly_1x_coco.py to ./configs/mask_rcnn
+  	12. Move mask_rcnn_r50_caffe_fpn_mstrain-poly_1x_coco.py to ./configs/mask_rcnn
 
-  13. Move resnet.py to ./mmdet/models/backbones
+  	13. Move resnet.py to ./mmdet/models/backbones
  
 	14. All data are now in the right place, and it should look like this, note that if there is no (F) postfix, that is a directory
 	
 	
 	pj ----- mmdetection ---- configs ---- _base_ ----- datasets ---- coco_instance.py (F)
-	    		             |            |           |
-	   	  	             |            |           ----- models ---- mask_rcnn_r50_fpn.py (F)
-	   	  	             |            |           |
+	    		     |            |           |
+	   	  	     |            |           ----- models ---- mask_rcnn_r50_fpn.py (F)
+	   	  	     |            |           |
 	                     |            |           ----- schdules ---- schedule_1x.py (F)
-                       |            |
+                       	     |            |
 	                     |            ---- mask_rcnn ---- mask_rcnn_r50_caffe_fpn_mstrain-poly_1x_coco.py(F)
-                       |            |
-                       |            ---- HW ---- HW.py(F)
-                       |
-                       ----dataset ---- train         
-		      		         |           |                     
-		      		         |           ---- test      
-		                   |           |
-		                   |           ---- data_process.py(F)   
-		                   |           |
-		                   |           ---- defuse.py(F)
-                       |
-                       |
-                       ----mmdet----models----backbones----resnet.py(F)
+                             |            |
+                       	     |            ---- HW ---- HW.py(F)
+                       	     |
+                       	     ----dataset ---- train         
+		      	     |           |                     
+		      	     |           ---- test      
+		             |           |
+		             |           ---- data_process.py(F)   
+		             |           |
+		             |           ---- defuse.py(F)
+                       	     |
+                             |
+                       	     ----mmdet----models----backbones----resnet.py(F)
                       
 Now we are prepared to train the model.
 
