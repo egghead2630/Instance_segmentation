@@ -29,7 +29,7 @@ pycocotools:
 
 pycococreator:
 
-  pip install git+git://github.com/waspinator/pycococreator.git@0.2.0
+  	pip install git+git://github.com/waspinator/pycococreator.git@0.2.0
 
 
 
@@ -95,7 +95,8 @@ To train the model, run this command in "mmdetection" directory:
 
 You may need network while running this, for pretrained model would be download from internet
 
-You can get the model
+The files mentioned above in included either in the "programs" directory or the "configs" directory in this repo.
+
 
 Evaluation
 -------------------------------------------------------------------------
