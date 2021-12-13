@@ -126,7 +126,7 @@ Pre-trained Models
 -------------------------------------------------------------------------
 You can download and use pretrained models by simply running training command above:
     
-	python3 tools/train.py HW/HW.py
+	python3 tools/train.py configs/HW/HW.py
 
 This will download the model if not downloaded yet.
     
