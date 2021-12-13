@@ -91,7 +91,7 @@ Now we are prepared to train the model.
 
 To train the model, run this command in "mmdetection" directory:
 
-	python3 tools/train.py HW/HW.py
+	python3 tools/train.py configs/HW/HW.py
 
 You may need network while running this, for pretrained model would be download from internet
 
