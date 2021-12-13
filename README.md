@@ -137,7 +137,7 @@ Our model achieves the following performance on :
 
 mAP: HW3 challenge on codalab	
 
-![img1]()
+![img1](https://github.com/egghead2630/VRDL_HW3/blob/main/result.png)
 
 
 Reproducing without retraining
