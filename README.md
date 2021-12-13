@@ -76,7 +76,7 @@ To train the models, we first need to put every file into the right directory to
                              |            |
                        	     |            ---- HW ---- HW.py(F)
                        	     |
-                       	     ----dataset ---- train         
+                       	     ---- dataset ---- train         
 		      	     |           |                     
 		      	     |           ---- test      
 		             |           |
@@ -85,7 +85,7 @@ To train the models, we first need to put every file into the right directory to
 		             |           ---- defuse.py(F)
                        	     |
                              |
-                       	     ----mmdet----models----backbones----resnet.py(F)
+                       	     ---- mmdet ---- models ---- backbones ---- resnet.py(F)
                       
 Now we are prepared to train the model.
 
