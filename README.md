@@ -118,7 +118,7 @@ Move the result.pkl to "dataset" directory and run defuse.py
         
 This would generate answer.json, just zip it and upload to colab to evaluate the performance.		
 
-Model(latest.pth): 
+Model(latest.pth): https://drive.google.com/file/d/1Mc9ts3-ChO_9GNzbLhPwVQpAO7_K7_p7/view?usp=sharing
 
 
 	
