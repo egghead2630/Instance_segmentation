@@ -106,7 +106,7 @@ to evaluate the model, download the model from link in the below.
 	
 Put the latest.pth into the "mmdetection" directory, then run:
 
-        python3 tools/test.py configs/HW/HW.py  output/now_best/latest.pth --out ./result.pkl --show-dir ./test_results
+        python3 tools/test.py configs/HW/HW.py  ./latest.pth --out ./result.pkl --show-dir ./test_results
 	
 
 After running, a file "result.pkl" would be generated in ./
