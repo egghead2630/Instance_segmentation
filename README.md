@@ -71,7 +71,7 @@ To train the models, we first need to put every file into the right directory to
 	   	  	     |            |           ----- models ---- mask_rcnn_r50_fpn.py (F)
 	   	  	     |            |           |
 	                     |            |           ----- schdules ---- schedule_1x.py (F)
-                       	     |            |
+                       	     	|            |
 	                     |            ---- mask_rcnn ---- mask_rcnn_r50_caffe_fpn_mstrain-poly_1x_coco.py(F)
                              |            |
                        	     |            ---- HW ---- HW.py(F)
