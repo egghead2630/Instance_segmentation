@@ -66,26 +66,26 @@ To train the models, we first need to put every file into the right directory to
 	14. All data are now in the right place, and it should look like this, note that if there is no (F) postfix, that is a directory
 	
 	
-	pj ----- mmdetection ---- configs ---- _base_ ----- datasets ---- coco_instance.py (F)
-	    		     |            |           |
-	   	  	     |            |           ----- models ---- mask_rcnn_r50_fpn.py (F)
+        pj ----- mmdetection ---- configs ---- _base_ ----- datasets ---- coco_instance.py (F)
+                             |            |           |
+                             |            |           ----- models ---- mask_rcnn_r50_fpn.py (F)
                              |            |           |
                              |            |           ----- schdules ---- schedule_1x.py (F)
                              |            |
-	                     |            ---- mask_rcnn ---- mask_rcnn_r50_caffe_fpn_mstrain-poly_1x_coco.py(F)
+                             |            ---- mask_rcnn ---- mask_rcnn_r50_caffe_fpn_mstrain-poly_1x_coco.py(F)
                              |            |
-                       	     |            ---- HW ---- HW.py(F)
-                       	     |
-                       	     ---- dataset ---- train         
-		      	     |           |                     
-		      	     |           ---- test      
-		             |           |
-		             |           ---- data_process.py(F)   
-		             |           |
-		             |           ---- defuse.py(F)
-                       	     |
+                             |            ---- HW ---- HW.py(F)
                              |
-                       	     ---- mmdet ---- models ---- backbones ---- resnet.py(F)
+                             ---- dataset---- train         
+                             |           |                     
+                             |           ---- test      
+                             |           |
+                             |           ---- data_process.py(F)   
+                             |           |
+                             |           ---- defuse.py(F)
+                             |
+                             |
+                             ---- mmdet ---- models ---- backbones ---- resnet.py(F)
                       
 Now we are prepared to train the model.
 
