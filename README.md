@@ -45,7 +45,7 @@ To train the models, we first need to put every file into the right directory to
 	
 	4. We copy our "train" and "test" directory and "test_img_ids.json" into "dataset", they are provided by TAs.
 	
-	5. Also put "data_process.py" and "defuse.py" into "dataset" directory
+	5. Also put "data_process.py","defuse.py", and "trans.py" into "dataset" directory
 	
 	6. Run "data_process.py", this would generate files needed for training.
 	
@@ -84,8 +84,9 @@ To train the models, we first need to put every file into the right directory to
                              |           |
                              |           ---- defuse.py(F)
                              |           |
-                             |           ---- test_img_ids.json
-                             |
+                             |           ---- test_img_ids.json(F)
+                             |           |
+                             |		 ---- trans.py(F)
                              ---- mmdet ---- models ---- backbones ---- resnet.py(F)
                       
 Now we are prepared to train the model.
