@@ -43,7 +43,7 @@ To train the models, we first need to put every file into the right directory to
 	
 	3. Move to mmdetection directory, and create a directory "dataset".
 	
-	4. We copy our "train" and "test" directory into "dataset", they are provided bu TAs.
+	4. We copy our "train" and "test" directory and "test_img_ids.json" into "dataset", they are provided by TAs.
 	
 	5. Also put "data_process.py" and "defuse.py" into "dataset" directory
 	
@@ -83,7 +83,8 @@ To train the models, we first need to put every file into the right directory to
                              |           ---- data_process.py(F)   
                              |           |
                              |           ---- defuse.py(F)
-                             |
+			     |           |
+                             |           ---- test_img_ids.json
                              |
                              ---- mmdet ---- models ---- backbones ---- resnet.py(F)
                       
