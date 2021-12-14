@@ -86,7 +86,7 @@ To train the models, we first need to put every file into the right directory to
                              |           |
                              |           ---- test_img_ids.json(F)
                              |           |
-                             |		 ---- trans.py(F)
+                             |	         ---- trans.py(F)
                              ---- mmdet ---- models ---- backbones ---- resnet.py(F)
                       
 Now we are prepared to train the model.
