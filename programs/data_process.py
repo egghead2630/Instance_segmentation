@@ -82,7 +82,7 @@ for name in ps:
     image_dir = path + name + '/images'
     image_dirs.append(image_dir)
 
-ind = random.randint(0, (len(image_dir) - 1))
+ind = random.randint(0, (len(image_dirs) - 1))
 
 vali_mask_dirs = []
 vali_mask_dirs.append(mask_dirs.pop(ind))
@@ -90,7 +90,7 @@ vali_image_dirs = []
 vali_image_dirs.append(image_dirs.pop(ind))
 
 
-ind = random.randint(0, (len(image_dir)-1))
+ind = random.randint(0, (len(image_dirs)-1))
 
 vali_mask_dirs.append(mask_dirs.pop(ind))
 vali_image_dirs.append(image_dirs.pop(ind))
