@@ -105,7 +105,7 @@ Evaluation
 
 First You need to handle the file as the training part has done, then, 
 
-run the trans.py, this would transform the test_img_ids.json a little to match the format.
+run the "trans.py", this would transform the test_img_ids.json a little to match the format.
 
 To evaluate the model, download the model from link in the below.
 	
