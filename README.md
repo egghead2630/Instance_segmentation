@@ -83,7 +83,7 @@ To train the models, we first need to put every file into the right directory to
                              |           ---- data_process.py(F)   
                              |           |
                              |           ---- defuse.py(F)
-			     |           |
+                             |           |
                              |           ---- test_img_ids.json
                              |
                              ---- mmdet ---- models ---- backbones ---- resnet.py(F)
