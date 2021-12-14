@@ -18,7 +18,7 @@ f.write(', \n')
 f.write('\"categories\": \n')
 
 f.write('[\n')
-f.write('{\"id\": 1 \"name\": 1}\n')
+f.write('{\"id\": 1, \"name\": 1}\n')
 f.write(']\n')
 
 f.write('}\n')
