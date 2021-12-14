@@ -103,8 +103,10 @@ Evaluation
 -------------------------------------------------------------------------
 
 First You need to handle the file as the training part has done, then, 
-	
-to evaluate the model, download the model from link in the below.
+
+run the trans.py, this would transform the test_img_ids.json a little to match the format.
+
+To evaluate the model, download the model from link in the below.
 	
 Put the latest.pth into the "mmdetection" directory, then run:
 
